@@ -1,0 +1,68 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style for a TextView category in the editor -->
+    <style name="CategoryStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+
+    <!-- Style for an EditText field in the editor -->
+    <style name="EditorFieldStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:inputType">textCapWords</item>
+    </style>
+
+    <!-- Style for the Linear Layouts containing Edit Text in the editor -->
+    <style name="LinearLayoutEditorStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">@dimen/zero_dim</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:paddingLeft">@dimen/padding4</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Style for the Linear Layouts for Categories in the editor -->
+    <style name="LinearLayoutEditorCatStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!--Style for the quantity buttons-->
+    <style name="quantity_button">
+        <item name="android:layout_width">@dimen/dim_quantity_button</item>
+        <item name="android:layout_height">@dimen/dim_quantity_button</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:layout_marginLeft">@dimen/catalog_margin</item>
+        <item name="android:layout_marginRight">@dimen/catalog_margin</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Style for the 'call supplier' buttons-->
+    <style name="call_button">
+        <item name="android:layout_width">@dimen/dim_call_button</item>
+        <item name="android:layout_height">@dimen/dim_quantity_button</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:layout_marginLeft">@dimen/catalog_margin</item>
+        <item name="android:layout_marginRight">@dimen/catalog_margin</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

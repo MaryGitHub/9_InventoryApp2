@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="catalog_margin">16dp</dimen>
+    <dimen name="padding4">4dp</dimen>
+    <dimen name="zero_dim">0dp</dimen>
+    <dimen name="dim_quantity_button">32dp</dimen>
+    <dimen name="dim_call_button">120dp</dimen>
+</resources>
